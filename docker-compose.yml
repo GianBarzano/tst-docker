@@ -27,3 +27,11 @@ services:
       - "9000:9000"
     depends_on:
         - db
+  # Heroku to publish
+  # herokucli:
+  #   image: finalgene/heroku-cli
+  #   volumes:
+  #     - "./:/app"
+  #     - "/var/run/docker:/var/run/docker"
+
+      
